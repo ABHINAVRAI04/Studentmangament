@@ -49,7 +49,7 @@ export const EditStudent = createAsyncThunk("Editstudent", async (values) => {
 });
 
 export const studetnsli = createSlice({
-  name: "Teachers",
+  name: "Students",
   initialState,
   extraReducers(builder) {
     builder
