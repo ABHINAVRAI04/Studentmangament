@@ -37,7 +37,7 @@ function AddingStudents({ students, setstudents, setIsAdding }) {
         showConfirmButton: true,
       });
     }
-    const id = students.length + 1;
+   // const id = students.length + 1
     const newStudent = {
       firstName,
       lastName,
@@ -48,7 +48,7 @@ function AddingStudents({ students, setstudents, setIsAdding }) {
     };
     dispatch(StudentDetails(newStudent))
 
-    setstudents(students);
+    //setstudents(students);
     setIsAdding(false);
 
     Swal.fire({
